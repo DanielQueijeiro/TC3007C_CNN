@@ -1,9 +1,9 @@
-### Repositorio para el entrenamiento de una red convolucional para la prediccion de la clase de pokemones. 
+### Repositorio para el entrenamiento de una red convolucional para ASL. 
 
-Enlace al dataset: https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types
+Enlace al dataset: [https://www.kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types](https://www.kaggle.com/datasets/grassknoted/asl-alphabet/data)
 
 Se incluyen dos notebooks:
-- Clasificador_pokemones.ipnyb - Aquí se entrenan dos modelos, uno de baseline y otro que utiliza transfer learning con EfficientNetB4
-- CargarModelos.ipynb - Aquí se cargan los modelos y se prueban con una carpeta de imagenes de pokemones
+- Clasificador_pokemones.ipnyb - Aquí se entrena el modelo CNN
+- CargarModelos.ipynb - Aquí se carga el modelo y se prueba con la carpeta de test del dataset
 
-Tambien se incluyen los archivos h5 de ambos modelos y una carpeta con imagenes de pokemones lista para probar
+Tambien se incluyen el archivo del modelo
